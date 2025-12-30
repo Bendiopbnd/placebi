@@ -79,7 +79,7 @@ export default function DashboardPage() {
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Dashboard</h1>
           <p className="text-gray-600">
-            Vue d'ensemble de vos finances
+            Vue d&apos;ensemble de vos finances
           </p>
         </div>
 
@@ -92,7 +92,7 @@ export default function DashboardPage() {
               size="sm"
               onClick={() => setTimeFilter(filter)}
             >
-              {filter === 'today' && "Aujourd'hui"}
+              {filter === 'today' && "Aujourd&apos;hui"}
               {filter === 'this_week' && 'Cette semaine'}
               {filter === 'this_month' && 'Ce mois'}
             </Button>
